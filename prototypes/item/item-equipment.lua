@@ -7,7 +7,14 @@ local function CloneWithTint(source, name, subgroup, order, tint, icon_name, ity
     if icon_name then
         item.icon = string.format("__FactorioExtended-Plus-Assets2__/equipment/icons/%s", icon_name)
     end
-    item.icons = {{icon = item.icon, icon_mipmaps = 4, icon_size = 64, tint = tint}}
+    if item.icons then
+        item.icons = {{
+            icon = item.icon,
+            mipmap_count = 4,
+            size = 64,
+            tint = tint or nil
+        }}
+    end
     item.subgroup = subgroup
     item.order = order
     data:extend({item})
