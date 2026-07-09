@@ -14,7 +14,7 @@ data:extend({eg})
 
 local pa3 = table.deepcopy(data.raw["armor"]["power-armor-mk2"])
 pa3.name = "power-armor-mk3"
-pa3.icon = "__FactorioExtended-Plus-Equipment__/graphics/icons/power-armor-mk3.png"
+pa3.icon = "__FactorioExtended-Plus-Assets2__/equipment/icons/power-armor-mk3.png"
 pa3.icon_size = 64
 pa3.icon_mipmaps = 4
 pa3.equipment_grid = "xlarge-equipment-grid"

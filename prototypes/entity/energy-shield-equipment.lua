@@ -10,6 +10,6 @@ ese3.max_shield_value = 300
 ese3.energy_per_shield = "40kJ"
 ese3.energy_source.buffer_capacity = "240kJ"
 ese3.energy_source.input_flow_limit = "480kW"
-ese3.sprite.filename = "__FactorioExtended-Plus-Equipment__/graphics/equipment/energy-shield-mk3-equipment.png"
+ese3.sprite.filename = "__FactorioExtended-Plus-Assets2__/equipment/entities/energy-shield-mk3-equipment.png"
 
 data:extend({ese3})

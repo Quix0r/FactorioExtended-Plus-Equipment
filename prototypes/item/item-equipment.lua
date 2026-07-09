@@ -1,11 +1,11 @@
-local Constant = require("constant")
+local Constant = require("__FactorioExtended-Plus-Core2__/constant")
 
 local function CloneWithTint(source, name, subgroup, order, tint, icon_name, itype)
     local item = table.deepcopy(data.raw[itype or "item"][source])
     item.name = name
     item.placed_as_equipment_result = name
     if icon_name then
-        item.icon = string.format("__FactorioExtended-Plus-Equipment__/graphics/icons/%s", icon_name)
+        item.icon = string.format("__FactorioExtended-Plus-Assets2__/equipment/icons/%s", icon_name)
     end
     item.icons = {{icon = item.icon, icon_mipmaps = 4, icon_size = 64, tint = tint}}
     item.subgroup = subgroup
@@ -33,7 +33,7 @@ end
 --         {
 --             type = "item",
 --             name = "fusion-reactor-mk2-equipment",
---             icon = "__FactorioExtended-Plus-Equipment__/graphics/icons/fusion-reactor-mk2-equipment.png",
+--             icon = "__FactorioExtended-Plus-Assets2__/equipment/icons/fusion-reactor-mk2-equipment.png",
 --             icon_size = 64,
 --             icon_mipmaps = 4,
 --             placed_as_equipment_result = "fusion-reactor-mk2-equipment",
@@ -44,7 +44,7 @@ end
 --         {
 --             type = "item",
 --             name = "energy-shield-mk3-equipment",
---             icon = "__FactorioExtended-Plus-Equipment__/graphics/icons/energy-shield-mk3-equipment.png",
+--             icon = "__FactorioExtended-Plus-Assets2__/equipment/icons/energy-shield-mk3-equipment.png",
 --             icon_size = 64,
 --             icon_mipmaps = 4,
 --             placed_as_equipment_result = "energy-shield-mk3-equipment",
@@ -56,7 +56,7 @@ end
 --         {
 --             type = "item",
 --             name = "battery-mk3-equipment",
---             icon = "__FactorioExtended-Plus-Equipment__/graphics/icons/battery-mk3-equipment.png",
+--             icon = "__FactorioExtended-Plus-Assets2__/equipment/icons/battery-mk3-equipment.png",
 --             icon_size = 64,
 --             icon_mipmaps = 4,
 --             placed_as_equipment_result = "battery-mk3-equipment",
@@ -68,7 +68,7 @@ end
 --         {
 --             type = "item",
 --             name = "personal-roboport-mk3-equipment",
---             icon = "__FactorioExtended-Plus-Equipment__/graphics/icons/personal-roboport-mk3-equipment.png",
+--             icon = "__FactorioExtended-Plus-Assets2__/equipment/icons/personal-roboport-mk3-equipment.png",
 --             icon_size = 64,
 --             icon_mipmaps = 4,
 --             placed_as_equipment_result = "personal-roboport-mk3-equipment",
@@ -79,7 +79,7 @@ end
 --         {
 --             type = "item",
 --             name = "exoskeleton-mk2-equipment",
---             icons = {{icon = "__FactorioExtended-Plus-Equipment__/graphics/icons/exoskeleton-mk2-equipment.png", icon_size = 64, icon_mipmaps = 4}},
+--             icons = {{icon = "__FactorioExtended-Plus-Assets2__/equipment/icons/exoskeleton-mk2-equipment.png", icon_size = 64, icon_mipmaps = 4}},
 --             placed_as_equipment_result = "exoskeleton-mk2-equipment",
 --             subgroup = "fb-equipment",
 --             order = "e-b",
@@ -89,7 +89,7 @@ end
 --         {
 --             type = "item",
 --             name = "personal-laser-defense-equipment-mk2",
---             icons = {{icon = "__FactorioExtended-Plus-Equipment__/graphics/icons/personal-laser-defense-equipment-mk2.png", icon_size = 64, icon_mipmaps = 4}},
+--             icons = {{icon = "__FactorioExtended-Plus-Assets2__/equipment/icons/personal-laser-defense-equipment-mk2.png", icon_size = 64, icon_mipmaps = 4}},
 --             placed_as_equipment_result = "personal-laser-defense-equipment-mk2",
 --             subgroup = "fb-equipment",
 --             order = "e-b",
@@ -99,7 +99,7 @@ end
 --         {
 --             type = "item",
 --             name = "night-vision-equipment-mk2",
---             icons = {{icon = "__FactorioExtended-Plus-Equipment__/graphics/icons/night-vision-equipment-mk2.png", icon_size = 64, icon_mipmaps = 4}},
+--             icons = {{icon = "__FactorioExtended-Plus-Assets2__/equipment/icons/night-vision-equipment-mk2.png", icon_size = 64, icon_mipmaps = 4}},
 --             placed_as_equipment_result = "night-vision-equipment-mk2",
 --             subgroup = "fb-equipment",
 --             order = "e-b",

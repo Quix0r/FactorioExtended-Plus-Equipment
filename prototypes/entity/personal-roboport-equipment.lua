@@ -9,7 +9,7 @@
 local pre3 = table.deepcopy(data.raw["roboport-equipment"]["personal-roboport-equipment"])
 pre3.name = "personal-roboport-mk3-equipment"
 pre3.take_result = pre3.name
-pre3.sprite.filename = "__FactorioExtended-Plus-Equipment__/graphics/equipment/personal-roboport-mk3-equipment.png"
+pre3.sprite.filename = "__FactorioExtended-Plus-Assets2__/equipment/entities/personal-roboport-mk3-equipment.png"
 pre3.energy_source.buffer_capacity = "70MJ"
 pre3.energy_source.input_flow_limit = "7000KW"
 pre3.charging_energy = "1000kW"

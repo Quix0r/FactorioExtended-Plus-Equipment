@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2026-07-09
+  Factorio 2.0 fixes:
+    - changed Factorio game version to 2.0
+    - added dependency on FE+ Assets 2.0 (own mod)
+    - updated version of FE+ Weaponry/Core 2.0
+  Changes:
+    - `constant.lua` is part of FE+ Core 2.0
+    - removed some editor-only files
+    - moved graphics to FE+ Assets 2.0
+---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 2020-11-24
   Changes:
