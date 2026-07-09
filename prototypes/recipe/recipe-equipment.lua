@@ -6,13 +6,12 @@ data:extend(
             name = "power-armor-mk3",
             enabled = false,
             ingredients = {
-                {"power-armor-mk2", 1},
-                {"titanium-alloy", 100},
-                {"processing-unit", 100},
-                {"rocket-control-unit", 50},
-                {"low-density-structure", 50}
+                {type="item", name="power-armor-mk2", amount=1},
+                {type="item", name="titanium-alloy", amount=100},
+                {type="item", name="processing-unit", amount=150},
+                {type="item", name="low-density-structure", amount=50}
             },
-            result = "power-armor-mk3"
+            results = {{type="item", name="power-armor-mk3", amount=1}}
         },
         {
             type = "recipe",
@@ -20,10 +19,10 @@ data:extend(
             enabled = false,
             energy_required = 10,
             ingredients = {
-                {"energy-shield-mk2-equipment", 10},
-                {"processing-unit", 20}
+                {type="item", name="energy-shield-mk2-equipment", amount=10},
+                {type="item", name="processing-unit", amount=20}
             },
-            result = "energy-shield-mk3-equipment"
+            results = {{type="item", name="energy-shield-mk3-equipment", amount=1}}
         },
         {
             type = "recipe",
@@ -31,10 +30,10 @@ data:extend(
             enabled = false,
             energy_required = 10,
             ingredients = {
-                {"battery-mk2-equipment", 10},
-                {"processing-unit", 20}
+                {type="item", name="battery-mk2-equipment", amount=10},
+                {type="item", name="processing-unit", amount=20}
             },
-            result = "battery-mk3-equipment"
+            results = {{type="item", name="battery-mk3-equipment", amount=1}}
         },
         {
             type = "recipe",
@@ -42,12 +41,11 @@ data:extend(
             enabled = false,
             energy_required = 10,
             ingredients = {
-                {"fusion-reactor-equipment", 4},
-                {"processing-unit", 100},
-                {"rocket-control-unit", 50},
-                {"low-density-structure", 50}
+                {type="item", name="fusion-reactor-equipment", amount=4},
+                {type="item", name="processing-unit", amount=150},
+                {type="item", name="low-density-structure", amount=50}
             },
-            result = "fusion-reactor-mk2-equipment"
+            results = {{type="item", name="fusion-reactor-mk2-equipment", amount=1}}
         },
         {
             type = "recipe",
@@ -55,12 +53,12 @@ data:extend(
             enabled = false,
             energy_required = 10,
             ingredients = {
-                {"personal-roboport-mk2-equipment", 2},
-                {"processing-unit", 20},
-                {"titanium-alloy", 40},
-                {"battery-mk2-equipment", 20}
+                {type="item", name="personal-roboport-mk2-equipment", amount=2},
+                {type="item", name="processing-unit", amount=20},
+                {type="item", name="titanium-alloy", amount=40},
+                {type="item", name="battery-mk2-equipment", amount=20}
             },
-            result = "personal-roboport-mk3-equipment"
+            results = {{type="item", name="personal-roboport-mk3-equipment", amount=1}}
         },
         {
             type = "recipe",
@@ -68,12 +66,12 @@ data:extend(
             enabled = false,
             energy_required = 20,
             ingredients = {
-                {"exoskeleton-equipment", 2},
-                {"processing-unit", 10},
-                {"electric-engine-unit", 30},
-                {"titanium-alloy", 20}
+                {type="item", name="exoskeleton-equipment", amount=2},
+                {type="item", name="processing-unit", amount=10},
+                {type="item", name="electric-engine-unit", amount=30},
+                {type="item", name="titanium-alloy", amount=20}
             },
-            result = "exoskeleton-mk2-equipment"
+            results = {{type="item", name="exoskeleton-mk2-equipment", amount=1}}
         },
         {
             type = "recipe",
@@ -81,13 +79,13 @@ data:extend(
             enabled = false,
             energy_required = 20,
             ingredients = {
-                {"personal-laser-defense-equipment", 2},
-                {"battery-mk2-equipment", 1},
-                {"laser-turret-mk2", 2},
-                {"processing-unit", 5},
-                {"low-density-structure", 5}
+                {type="item", name="personal-laser-defense-equipment", amount=2},
+                {type="item", name="battery-mk2-equipment", amount=1},
+                {type="item", name="laser-turret-mk2", amount=2},
+                {type="item", name="processing-unit", amount=5},
+                {type="item", name="low-density-structure", amount=5}
             },
-            result = "personal-laser-defense-equipment-mk2"
+            results = {{type="item", name="personal-laser-defense-equipment-mk2", amount=1}}
         },
         {
             type = "recipe",
@@ -95,11 +93,11 @@ data:extend(
             enabled = false,
             energy_required = 20,
             ingredients = {
-                {"night-vision-equipment", 1},
-                {"titanium-alloy", 20},
-                {"processing-unit", 1}
+                {type="item", name="night-vision-equipment", amount=1},
+                {type="item", name="titanium-alloy", amount=20},
+                {type="item", name="processing-unit", amount=1}
             },
-            result = "night-vision-equipment-mk2"
+            results = {{type="item", name="night-vision-equipment-mk2", amount=1}}
         }
     }
 )

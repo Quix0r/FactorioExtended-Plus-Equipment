@@ -5,6 +5,9 @@ Date: 2026-07-09
     - changed Factorio game version to 2.0
     - added dependency on FE+ Assets 2.0 (own mod)
     - updated version of FE+ Weaponry/Core 2.0
+    - `result` needs to be changed to `results={{type="item", name="foo", amount=1}}`
+    - each ingredient is a dictionary of type, name and amount (same as single results)
+    - there is no rocket control unit anymore, so lets add 50 processors instead
   Changes:
     - `constant.lua` is part of FE+ Core 2.0
     - removed some editor-only files
